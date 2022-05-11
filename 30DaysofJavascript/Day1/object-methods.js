@@ -23,11 +23,12 @@ const gina = {
   getSummary: function () {
     return `${this.firstName} is a ${this.calcAge()} - year old ${
       gina.job
-    }, and she has ${this.hasDriverLicense ? "a" : "no"} driver's license.`;
+    }, and she has ${this.hasDriverLicense ? "a" : "no"} driver's license!`;
   },
 };
 console.log(gina.calcAge());
 
+console.log(gina.age);
 console.log(gina.age);
 console.log(gina.age);
 console.log(gina.age);
